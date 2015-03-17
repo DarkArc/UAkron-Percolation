@@ -86,7 +86,7 @@ void simulate(unsigned int runs, double chance, unsigned int boardSize) {
     }
   }
   std::cout << "Rate: " << percolations << " / " << runs
-            << " (" << percolations / static_cast<double>(runs) << "%)"
+            << " (" << ((percolations / static_cast<double>(runs)) * 100) << "%)"
             << std::endl;
 }
 
