@@ -25,6 +25,10 @@ class MazeFactory {
 public:
   MazeFactory(const std::minstd_rand&);
 
-  Grid<bool> generate(double rate, unsigned int width, unsigned int height);
+  Grid<bool> generate(
+    const double& rate,
+    const unsigned int& width,
+    const unsigned int& height
+  );
 };
 #endif
