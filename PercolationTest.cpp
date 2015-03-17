@@ -26,7 +26,7 @@
     The given grid to test.
 
     @param table
-    The table holding the cluster relationships.
+    The vector representing the tree of cluster relationships.
 
     @return true if the grid percolates.
  */
