@@ -59,7 +59,6 @@ template <typename T>
  */
 template <typename T>
   T Grid<T>::getValAt(unsigned int x, unsigned int y) const {
-    // Check bounds
     if (x >= width || x < 0) {
       throw std::runtime_error("Given x is not within bounds!");
     }
